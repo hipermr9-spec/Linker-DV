@@ -190,7 +190,6 @@ a {
   color: var(--color-muted);
 }
 
-/* تنسيق عام فخم */
 body {
     margin: 0;
     padding: 0;
@@ -199,58 +198,43 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; /* هذا اللي يخلي الكارد في منتصف الشاشة عمودياً */
 }
 
 .onboarding-container {
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(15px); /* تأثير الزجاج */
-    padding: 50px;
+    background: rgba(255, 255, 255, 0.9); /* زودنا العتامة شوي عشان يثقل الكارد */
+    backdrop-filter: blur(15px);
+    padding: 40px;
     border-radius: 30px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* ظل أثقل عشان يثبت الكارد بصرياً */
     text-align: center;
     width: 90%;
-    max-width: 500px;
-}
-
-h2 {
-    font-size: 1.8rem;
-    color: #2d3436;
-    margin-bottom: 30px;
+    max-width: 450px;
+    margin: auto; /* زيادة تأكيد للتوسيط */
 }
 
 .options-container {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap; /* عشان إذا الشاشة صغيرة الأزرار تنزل تحت بعض بدل ما تطلع بره */
 }
 
 button {
     background: #007bff;
     color: white;
     border: none;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 12px 30px;
+    border-radius: 12px;
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0,123,255,0.3);
+    min-width: 120px; /* عرض ثابت للأزرار عشان يكون شكلها متناسق */
 }
 
 button:hover {
     background: #0056b3;
-    transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(0,123,255,0.4);
-}
-
-/* تصميم حقل الإدخال لو كان السؤال نصي */
-input {
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    border: 2px solid #ddd;
-    outline: none;
+    transform: translateY(-2px);
 }
