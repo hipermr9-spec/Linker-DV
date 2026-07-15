@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 import OnBoarding from "./Pages/OnBoarding";
-import Feed from "./Pages/Feed";
+import Feed from "./Pages/Welcome";
 
 export default function App() {
   const location = useLocation();
