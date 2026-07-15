@@ -1,6 +1,12 @@
 import { useEffect } from "react";
 import channelImage from "../../src/assets/channels4_profile.jpg";
-import short1Thumb from "../../src/assets/short-1.png";
+import short2Thumb from "../../src/assets/short-2.png";
+import short3Thumb from "../../src/assets/short-3.png";
+import short4Thumb from "../../src/assets/short-4.png";
+import short5Thumb from "../../src/assets/short-5.png";
+import short6Thumb from "../../src/assets/short-6.png";
+import short7Thumb from "../../src/assets/short-7.png";
+import short8Thumb from "../../src/assets/short-8.png";
 
 const CHANNEL_URL = "https://www.youtube.com/@devtoper";
 
@@ -13,13 +19,13 @@ const VIDEOS = [
 ];
 
 const SHORTS = [
-  { title: "ترند القطة المضحك.", url: "https://www.youtube.com/shorts/lBS6xUpYjrY", thumbnail: short-2 },
-  { title: "تحدي المستحيل مع القطة 🐈 #roblox #cat #challenge", url: "https://www.youtube.com/shorts/YqqVI9-hKmY", thumbnail: short-3 },
-  { title: "حقيقي اشياء اضحك عليها اخر اليل #ترند #شورتس #روبلوكس_شورتس", url: "https://www.youtube.com/shorts/OmvhnKITPUU", thumbnail: short-4 },
-  { title: "روبلوكس لو لعبتها: #روبلوكس #روبلوكس_شورتس #شورتس", url: "https://www.youtube.com/shorts/TBsN4il-STU", thumbnail: short-5 },
-  { title: "ليه الكل بيعمل الترند الغريب ده؟ #استغراب #ترند", url: "https://www.youtube.com/shorts/gt0asCFQP6Q", thumbnail: short-6 },
-  { title: "صدق أو لا تصدق: 10 ساعات عشان ألف لايك #ترند #متابعين", url: "https://www.youtube.com/shorts/54yYcJQzwOc", thumbnail: short-7 },
-  { title: "اسمك بالصيني صدمة! 🤯 #غرائب #معلومات", url: "https://www.youtube.com/shorts/e8_Z4AhWM2Y", thumbnail: short-8 },
+  { title: "ترند القطة المضحك.", url: "https://www.youtube.com/shorts/lBS6xUpYjrY", thumbnail: short2Thumb },
+  { title: "تحدي المستحيل مع القطة 🐈 #roblox #cat #challenge", url: "https://www.youtube.com/shorts/YqqVI9-hKmY", thumbnail: short3Thumb },
+  { title: "حقيقي اشياء اضحك عليها اخر اليل #ترند #شورتس #روبلوكس_شورتس", url: "https://www.youtube.com/shorts/OmvhnKITPUU", thumbnail: short4Thumb },
+  { title: "روبلوكس لو لعبتها: #روبلوكس #روبلوكس_شورتس #شورتس", url: "https://www.youtube.com/shorts/TBsN4il-STU", thumbnail: short5Thumb },
+  { title: "ليه الكل بيعمل الترند الغريب ده؟ #استغراب #ترند", url: "https://www.youtube.com/shorts/gt0asCFQP6Q", thumbnail: short6Thumb },
+  { title: "صدق أو لا تصدق: 10 ساعات عشان ألف لايك #ترند #متابعين", url: "https://www.youtube.com/shorts/54yYcJQzwOc", thumbnail: short7Thumb },
+  { title: "اسمك بالصيني صدمة! 🤯 #غرائب #معلومات", url: "https://www.youtube.com/shorts/e8_Z4AhWM2Y", thumbnail: short8Thumb },
 ];
 
 export default function Welcome() {
