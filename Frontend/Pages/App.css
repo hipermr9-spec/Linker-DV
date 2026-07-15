@@ -201,6 +201,15 @@ body {
     align-items: center; /* هذا اللي يخلي الكارد في منتصف الشاشة عمودياً */
 }
 
+/* عدل هذا الجزء في ملف App.css */
+h2 {
+    font-size: 1.8rem;
+    color: #2d3436; /* تأكد أن اللون غامق وليس أبيض */
+    margin-bottom: 30px;
+    /* أضف هذا السطر لضمان ظهور النص فوق أي خلفية */
+    z-index: 10; 
+}
+
 .onboarding-container {
     background: rgba(255, 255, 255, 0.9); /* زودنا العتامة شوي عشان يثقل الكارد */
     backdrop-filter: blur(15px);
