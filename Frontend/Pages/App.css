@@ -189,3 +189,81 @@ a {
   font-size: 12px;
   color: var(--color-muted);
 }
+
+/* إعدادات عامة */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff; /* خلفية بيضاء */
+    color: #333;
+}
+
+/* تصميم صفحة OnBoarding */
+.onboarding-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.onboarding-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.onboarding-container button {
+    padding: 12px 30px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.onboarding-container button:hover {
+    background-color: #0056b3;
+}
+
+/* تصميم صفحة Feed */
+.feed-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.feed-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.feed-card {
+    background: #ffffff;
+    border: 1px solid #eaeaea;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.feed-card:hover {
+    transform: translateY(-5px);
+    border-color: #007bff;
+}
+
+.feed-card h3 {
+    margin-top: 0;
+    color: #111;
+}
