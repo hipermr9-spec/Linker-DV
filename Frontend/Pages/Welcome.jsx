@@ -13,7 +13,13 @@ const VIDEOS = [
 ];
 
 const SHORTS = [
-  { title: "شورت حماسي لفيديو تشغيل GTA 6.", url: "https://www.youtube.com/shorts/KW3mw4VuVQs", thumbnail: short1Thumb },
+  { title: "ترند القطة المضحك.", url: "https://www.youtube.com/shorts/lBS6xUpYjrY", thumbnail: short2Thumb },
+  { title: "تحدي المستحيل مع القطة 🐈 #roblox #cat #challenge", url: "https://www.youtube.com/shorts/YqqVI9-hKmY", thumbnail: short3Thumb },
+  { title: "حقيقي اشياء اضحك عليها اخر اليل #ترند #شورتس #روبلوكس_شورتس", url: "https://www.youtube.com/shorts/OmvhnKITPUU", thumbnail: short4Thumb },
+  { title: "روبلوكس لو لعبتها: #روبلوكس #روبلوكس_شورتس #شورتس", url: "https://www.youtube.com/shorts/TBsN4il-STU", thumbnail: short5Thumb },
+  { title: "ليه الكل بيعمل الترند الغريب ده؟ #استغراب #ترند", url: "https://www.youtube.com/shorts/gt0asCFQP6Q", thumbnail: short6Thumb },
+  { title: "صدق أو لا تصدق: 10 ساعات عشان ألف لايك #ترند #متابعين", url: "https://www.youtube.com/shorts/54yYcJQzwOc", thumbnail: short7Thumb },
+  { title: "اسمك بالصيني صدمة! 🤯 #غرائب #معلومات", url: "https://www.youtube.com/shorts/e8_Z4AhWM2Y", thumbnail: short8Thumb },
 ];
 
 export default function Welcome() {
